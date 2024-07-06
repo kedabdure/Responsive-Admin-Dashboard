@@ -205,6 +205,25 @@ aside .sidebar a.active span{
     margin-left: calc(1rem - 3px);
 }
 
+aside .sidebar a:hover{
+    color: var(--color-primary);
+}
+
+/* when the  */
+aside .sidebar a:hover span{
+    margin-left: .6rem; /*when we hover a element it only applied to span element in `a` element*/
+}
+
+aside .sidebar .message-count{
+    background-color: var(--color-danger);
+    padding: 2px 6px;
+    color: var(--color-white);
+    font-size: 11px;
+    border-radius: var(--border-radius-1);
+}
+
+
+
 
 
 
